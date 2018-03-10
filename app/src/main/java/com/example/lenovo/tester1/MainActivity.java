@@ -36,7 +36,7 @@ Button b;
     }
     public void fun1(View v)
     {
-        mRef = new Firebase("https://amber-heat-9780.firebaseio.com/meals");
+        mRef = new Firebase("");
         b=(Button)findViewById(R.id.button);
         EditText t=(EditText)findViewById(R.id.editText);
         EditText t1=(EditText)findViewById(R.id.editText2);
