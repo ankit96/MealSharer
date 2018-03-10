@@ -24,7 +24,7 @@ public class ViewList extends AppCompatActivity {
         setContentView(R.layout.activity_view_list);
 
 
-        mRef = new Firebase("https://amber-heat-9780.firebaseio.com/meals");
+        mRef = new Firebase("");
         listView = (ListView) this.findViewById(R.id.List);
         mListAdapter = new FirebaseListAdapter<Meal>(this, Meal.class, android.R.layout.two_line_list_item, mRef) {
             @Override
